@@ -1,0 +1,138 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+header{
+	background-color: #F9F9F9;
+    padding: 25px 0px;
+} 
+ 
+ /* banner section*/
+
+.banner{
+	background: url(../img/banner.jpg)no-repeat;
+    background-size: cover;
+    text-align: center;
+ }
+ .banner h1{
+ 	margin-top: 70px;
+    font-size: 55px;
+    color: #fff;
+    padding: 13px 0px;
+ }
+ .banner span{
+ 	border-bottom: 2px solid #15A4FA;
+    display: block;
+    width: 65%;
+    margin: auto;
+ }
+ .banner p{
+ 	padding: 12px 0px;
+    font-size: 18px;
+    color: #fff;
+    padding-bottom: 60px;
+ }
+.banner-btn{
+	width: 15%;
+    height: 45px;
+    border: 2px solid #15A4FA;
+    background: transparent;
+    color: #F6FFFF;
+    text-transform: capitalize;
+    font-size: 17px;
+    transition: 0.4s ease-in-out;
+}
+.banner-btn:hover{
+	background: #15A4FA;
+}
+  .fa.fa-chevron-down{
+  	 margin-top: 180px;
+    display: block;
+    font-size: 40px;
+     color: #fff;
+    transition: 0.2s ease-in-out;
+    padding: 60px 0px;
+     
+ }
+ .fa.fa-chevron-down:hover{
+ 	  color: #17A05D;
+
+ } 
+.service{
+	padding: 40px 0px;
+    font-family: 'Roboto', sans-serif;
+}
+.service-title{
+	text-align: center;
+}
+.service-title h2{
+	padding: 13px 0px;
+    font-size: 38px;
+    color: #2D3950;
+}
+.service-title p{
+	font-size: 15px;
+    width: 36%;
+    margin: auto;
+    color: #A59999;
+}
+
+.service-item{
+	margin-top: 50px;
+}
+.service-icon{
+	position: relative;
+    display: inline-block;
+    width: 104px;
+    height: 95px;
+    background: #15A4FA;
+    margin: 17px 0px;
+}
+.service-icon i{
+	color: #fff;
+}
+.fa.fa-mobile{
+	left: 37%;
+    position: absolute;
+    top: 9%;
+    font-size: 75px;
+ }
+ .service-item h3{
+	color: #2D3950;
+ }
+.service-item p{
+ 	margin: auto;
+    width: 61%;
+    color: #A59BA6
+ }
+
+ 
+ 
+/* Media query*/
+
+/* Mobile Device*/
+
+
+@media (min-width: 320px) and (max-width: 576px){
+	}
+/*small & device*/
+
+@media (min-width: 576.01px) and (max-width: 768px){
+
+}
+
+/* Notebook/leptop device*/
+
+@media (min-width: 786.01px) and (max-width: 992px){
+
+}
+/* Medium Device*/
+
+@media (min-width: 992.01px) and (max-width: 1200px){
+
+}
+
+/* large Device */
+
+@media (min-width: 1200.01px){
+}
